@@ -9,77 +9,68 @@
  ▄▀▄▄▄▄▀    ▀▄▄▄▄▀  ▄▀   ▄▀    ▄▀       
 █     ▐             █    █    █         
 ▐                   ▐    ▐    ▐         
-!dumped by ren1337!
 
 
+!render!
+
+render_engine "0x10":
+render_to_fake_datamodel: "0x118",
+fake_to_real_datamodel: "0x1a8",
+------------------------------------
+
+!player info!
+player_name: "0x68",
+local_player: "0x118",
+player_health: "0x18c",
+max_health: "0x1ac",
+player_move_direction: "0x150",
+player_sit: "0x1d4",
+player_display: "0x108",
+user_id: "0x1e8",
+------------------------------------
+
+!camera offsets!
+
+ camera_offset: "0x3d8",
+camera_subject: "0xc8",
+camera_position: "0xfc",
+camera_rotation: "0xd8",
+camera_scale: "0x148",
+camera_focus: "0x108",
+camera_field_of_view: "0x140",
+camera_min_zoom: "0x244",
+camera_max_zoom: "0x240",
+------------------------------------
 
 
+!rest of the offsets!
 
 
-
-
-
-
-
-
-
-  render_engine "0x10":
-  render_to_fake_datamodel: "0x118",
-  fake_to_real_datamodel: "0x1a8",
-  player_name: "0x68",
-  class_name: "0x18",
-  child: "0x70",
-  parent: "0x50",
-  child_size: "0x8",
-  game_location: "0x168",
-  place_location: "0x170",
-  game_done: "0x3c9",
-  local_player: "0x118",
-  model_instance: "0x2a0",
-  player_display: "0x108",
-  user_id: "0x1e8",
-  team: "0x1d8",
-  camera_min_zoom: "0x244",
-  camera_max_zoom: "0x240",
-  player_health: "0x18c",
-  max_health: "0x1ac",
-  player_move_direction: "0x150",
-  player_sit: "0x1d4",
-  primitive: "0x160",
-  part_size: "0x2b0",
-  base_part_location: "0x140",
-  game_velocity: "0x14c",
-  base_part_color: "0x190",
-  transparent: "0xe8",
-  camera_offset: "0x3d8",
-  camera_subject: "0xc8",
-  camera_position: "0xfc",
-  camera_rotation: "0xd8",
-  camera_scale: "0x148",
-  camera_focus: "0x108",
-  camera_field_of_view: "0x140",
-  game_brightness: "0x118",
-  fog_end: "0x128",
-  global_shadows: "0x134",
-  dimensions_client: "0x740",
-  view_matrix: "0x4d0",
-  position: "0x108",
-  size: "0x110",
+class_name: "0x18",
+child: "0x70",
+parent: "0x50",
+child_size: "0x8",
+game_location: "0x168",
+place_location: "0x170",
+game_done: "0x3c9",
+model_instance: "0x2a0",
+team: "0x1d8",
+player_health: "0x18c",
+max_health: "0x1ac",
+player_move_direction: "0x150",
+primitive: "0x160",
+part_size: "0x2b0",
+base_part_location: "0x140",
+game_velocity: "0x14c",
+base_part_color: "0x190",
+transparent: "0xe8",
+game_brightness: "0x118",
+fog_end: "0x128",
+global_shadows: "0x134",
+dimensions_client: "0x740",
+view_matrix: "0x4d0",
+position: "0x108",
+size: "0x110",
+------------------------------------
+ 
   
-
-
-
-
-
-
-
-
-
- ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄  ▄▀▀▄ ▄▀▄  ▄▀▀▄▀▀▀▄ 
-█ ▄▀   █ █   █    █ █  █ ▀  █ █   █   █ 
-▐ █    █ ▐  █    █  ▐  █    █ ▐  █▀▀▀▀  
-  █    █   █    █     █    █     █      
- ▄▀▄▄▄▄▀    ▀▄▄▄▄▀  ▄▀   ▄▀    ▄▀       
-█     ▐             █    █    █         
-▐                   ▐    ▐    ▐         
-!dumped by ren1337!
