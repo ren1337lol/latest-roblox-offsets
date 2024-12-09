@@ -28,7 +28,7 @@ user_id: "0x1e8",
 
 !camera offsets!
 
- camera_offset: "0x3d8",
+camera_offset: "0x3d8",
 camera_subject: "0xc8",
 camera_position: "0xfc",
 camera_rotation: "0xd8",
